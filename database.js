@@ -7,6 +7,7 @@ var con = mysql.createConnection({
     password: process.env.DB_PASS
 });
 
+
 con.connect(function (err) {
     if (err) throw err;
     console.log("Connected!");

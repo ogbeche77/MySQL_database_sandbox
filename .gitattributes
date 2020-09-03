@@ -1,2 +1,2 @@
 *.js linguist-detectable=false
-*.MySQL linguist-detectable=true
+*.mysql linguist-detectable=true

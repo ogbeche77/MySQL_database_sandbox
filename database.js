@@ -4,15 +4,17 @@ require('dotenv').config()
 var con = mysql.createConnection({
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
-    password: process.env.DB_PASS
+    password: process.env.DB_PASS,
+    database: process.env.DB_NAME
 });
 
 con.connect(function (err) {
     if (err) throw err;
     console.log("Connected!");
-    con.query("CREATE DATABASE mydb", function (err, result) {
+    var sql = "CREATE TABLE customers2 (name VARCHAR(255), address VARCHAR(255))";
+    con.query(sql, function (err, result) {
         if (err) throw err;
-        console.log("Database created");
+        console.log("Table created");
     });
 });
 

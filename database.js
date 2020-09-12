@@ -2,10 +2,10 @@ var mysql = require('mysql');
 var express = require('express');
 require('dotenv').config()
 
-var app = express();
-app.listen('3000', () => {
-    console.log('Server also started on port 3000')
-})
+// var app = express();
+// app.listen('3000', () => {
+//     console.log('Server also started on port 3000')
+// })
 
 //Database connection
 var con = mysql.createConnection({

@@ -1,5 +1,6 @@
 # Project Title
-SQL sandbox for practicing MySQL schemas, Wilscards, Union, Join, Nested Queries etc
+
+SQL sandbox for practicing MySQL schemas, Wildcards, Union, Join, Nested Queries etc
 
 ## Setup
 
@@ -18,4 +19,3 @@ Project is:Ongoing
 ## Contact
 
 Created by [@ogbeche77](https://github.com/ogbeche77)
-
